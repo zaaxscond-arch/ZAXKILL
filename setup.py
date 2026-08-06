@@ -1,0 +1,40 @@
+python
+#!/usr/bin/env python3
+"""
+ZAXKILL REAL - Setup Installer
+TikTok Auto Report Tool
+"""
+
+from setuptools import setup, find_packages
+
+setup(
+    name='zaxkill',
+    version='4.0.0',
+    description='TikTok Auto Report Tool - FODXA System',
+    author='@zaax__',
+    author_email='zaax@fodxa.com',
+    packages=find_packages(),
+    install_requires=[
+        'requests>=2.31.0',
+        'cloudscraper>=1.2.71',
+        'undetected-chromedriver>=3.5.4',
+        'selenium>=4.15.0',
+        'colorama>=0.4.6',
+        'fake-useragent>=1.4.0',
+        'beautifulsoup4>=4.12.2',
+        'lxml>=4.9.3',
+        'cryptography>=41.0.7',
+        'python-dotenv>=1.0.0'
+    ],
+    entry_points={
+        'console_scripts': [
+            'zaxkill=zaxkill:main',
+        ],
+    },
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.8',
+)
