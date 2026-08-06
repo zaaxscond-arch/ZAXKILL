@@ -15,3 +15,5 @@
 git clone https://github.com/zaax__/ZAXKILL.git
 cd ZAXKILL
 pip install -r requirements.txt
+
+python zaxkill.py
