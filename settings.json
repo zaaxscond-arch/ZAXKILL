@@ -1,0 +1,21 @@
+{
+    "version": "REAL 4.0",
+    "threads": 3,
+    "delay_min": 5.0,
+    "delay_max": 10.0,
+    "timeout": 30,
+    "max_retries": 3,
+    "headless": false,
+    "use_proxy": false,
+    "use_selenium": true,
+    "browser": "chrome",
+    "max_reports_per_hour": 150,
+    "report_reasons": ["Spam", "Bullying", "Harassment", "Nudity", "Hate Speech", "Scam", "Fake Account"],
+    "auto_rotate_user_agent": true,
+    "auto_clear_cookies": true,
+    "save_cookies": true,
+    "session_timeout": 300,
+    "log_level": "INFO",
+    "mode": "normal",
+    "language": "id"
+}
